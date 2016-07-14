@@ -1,2 +1,5 @@
 # ruby-testing-suite
-Docker containter with ruby 2.2, bower, npm, wget. https://hub.docker.com/r/xvonabur/ruby-testing-suite/
+
+## Changelog:
+1.0.4: resolves an issue with no /etc/machine-id file.
+1.0.5: Add phantomjs 2.1.1
