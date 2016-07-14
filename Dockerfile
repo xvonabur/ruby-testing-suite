@@ -46,5 +46,6 @@ RUN tar -xzf wget-1.17.1.tar.gz
 RUN cd wget-1.17.1 && ./configure --with-ssl=openssl && make && make install
 RUN rm -rf wget-1.17.1 && rm wget-1.17.1.tar.gz
 RUN npm install -g bower
+RUN npm install -g phantomjs-prebuilt
 RUN touch /root/.bowerrc && echo '{ "allow_root": true }' > /root/.bowerrc 
 RUN touch /etc/machine-id && dbus-uuidgen > /etc/machine-id
